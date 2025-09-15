@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: black;
+}
+
+/* ============ Header ========== */
+header {
+  background-color: black;
+  color: white;
+  padding: 1% 2%;
+  /* border: 2px solid yellow; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.menu li {
+  font-size: 14px;
+}
+
+.main_logo{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: auto;
+}
+.logo_text {
+  font-family: "Vampiro One", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+a{
+    text-decoration: none;
+    /* cursor: pointer; */
+    color: white;
+}
+li:hover{
+    color: white;
+    text-decoration:underline  rgb(12, 154, 12);
+    text-decoration-thickness:2px;
+        
+}
+
+/* ====== BODY CODE ===== */
+.main_body{
+    color: white;
+   
+}
+
+
+
+.body_content{
+    margin-top: 150px;
+    background-color: black;
+    text-align: center;
+     margin-bottom: 90px;
+    /* padding-bottom: 50px; */
+    
+}
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.txt_1{
+    /* color: rgb(68, 144, 68); */
+    color: #38E07B;
+    font-weight: 600;
+  
+    
+}
+.txt_2{
+    font-size: 16px;
+}
+.txt_order{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+.txt_3{
+    width: 90px;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: #38E07B;
+    color: black;
+    font-weight: bold;
+
+}
+.txt_4{
+    width: 90px;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgb(55, 36, 36);
+    color: white;
+    font-weight: bold;
+
+}
+
+/* == IMAGE BURGER== */
+
+.image_burger{
+    display: flex;
+    gap: 5px;
+
+    background-color: #111827;
+    /* background-color: yellow; */
+    padding-top: 100px;
+    
+}
+
+.txt_me{
+    display: block;
+    /* gap: 20px; */
+    padding: 30px;
+    margin: 30px;
+    /* background-color: red; */
+}
+.txt_5{
+    border-radius: 25px;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+
+.txt_6{
+width: 100%;
+font-size: 18px;
+text-align: justify;
+
+}
+
+.im_burger{
+    margin: 0px 50px;
+    padding: 0px 100px ;
+    /* background-color: blue; */
+}
+.burger_logo{
+    width: 350px;
+    border: 2px solid red;
+    border-radius:25px;
+    /* text-align: right; */
+}
+
+.txt_7{
+    width: 115px;
+    border-radius: 25px;
+    padding: 12px 14px;
+    /* padding-right: 12px; */
+    background-color: #38E07B;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    
+
+}
+.txt_7:hover{
+    background-color: #86ebae;
+    cursor: pointer;
+    border: 2px solid white ;
+}
+.my_arrow{
+    font-size: 1.5em;
+}
+
+
+/* === OUR DELICIOUS MENU === */
+.txt_del{
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #111827;
+}
+
+.list_imgs{
+    display: flex;
+}
+
+.main_img{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    /* height: 100%;
+    max-height: 100%; */
+    background-color: #111827;
+
+
+}
+.main_img_manu{
+    padding: 20px;
+    margin: 20px;
+    /* border: 12px solid red; */
+    /* border: 2px solid white; */
+    border-radius: 20px;
+
+
+
+}
+.main_img_1{
+    /* border: 2px solid white; */
+    border-radius: 20px 20px 0px 0;
+
+}
+
+.txt_8_msg {
+    background-color: #1F2937;
+    margin: 0px;
+    border: 0px solid;
+    border-radius: 0px 0px 20px 20px;    
+}
+
+.txt_8{
+    padding: 20px 2px 20px 0px;
+
+}
+.txt_9{
+    padding: 0px 2px 20px 15px;
+    font-size: 16px;
+    margin: 0;
+    
+
+}
+/* .txt_flex{
+    display: block;
+} */
