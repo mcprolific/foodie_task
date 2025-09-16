@@ -1,40 +1,31 @@
-# 🧑‍🎓 **Project 1**
-## Foodie – Restaurant Website Design
+Project 1
+Foodie – Restaurant Website Design
 
----
+Scenario  
+A restaurant brand called Foodie has a new static design image for their website.  
+They want a team of developers to turn this design into a working website using only HTML + CSS.  
 
-### 📖 Scenario  
-A restaurant brand called **Foodie** has a new **static design image** for their website.  
-They want a team of developers to turn this design into a working website using **only HTML + CSS**.  
+Because the file is only an image (not interactive), your team must use creativity and estimation to replicate the design as closely as possible.  
 
-Because the file is only an image (not interactive), your team must use **creativity and estimation** to replicate the design as closely as possible.  
-
----
-
-### 🎯 Goals of the Project  
-1. Reproduce the **layout and style** of the Foodie design image.  
-2. Practice **design-to-code approximation** when no detailed specs are given.  
+Goals of the Project:
+1. Reproduce the layout and style of the Foodie design image.  
+2. Practice design-to-code approximation when no detailed specs are given.  
 3. Improve teamwork by dividing the project into structured parts.  
 4. Develop attention to detail in fonts, colors, and alignment.  
 
----
-
-### 📌 Tasks for Students  
-- Open the design image here 👉 [**Figma Link**](https://www.figma.com/design/gy3gjJwI0IZwQB6SZqrWTN/Foodie?node-id=0-1&t=7HgXSe0GPHWqrbDV-1)  
+Tasks for Students  
+- Open the design image here 👉 [Figma Link](https://www.figma.com/design/gy3gjJwI0IZwQB6SZqrWTN/Foodie?node-id=0-1&t=7HgXSe0GPHWqrbDV-1)  
 - Study the sections (header, hero, food/menu, about, footer, etc.).  
-- Approximate the **spacing, font sizes, and colors** to match the design.  
-- Build a **static HTML + CSS site** with the appropriate sessions. All the sessions should be clickable
+- Approximate the spacing, font sizes, and colors to match the design.  
+- Build a static HTML + CSS site with the appropriate sessions. All the sessions should be clickable
 - With your creativity add appropriate footer to the design
 
----
-
-### 🎨 Design & Styling Rules  
-- Use **HTML for structure** and **CSS for styling**.  
-- Try to match the design’s **colors, fonts, and layout** as closely as possible.  
-- Approximate the **paddings and spacing** (doesn’t have to be exact).  
-- Use **separate CSS file** (`style.css`).  
+ Design & Styling Rules  
+- Use HTML for structure and CSS for styling.  
+- Try to match the design’s colors, fonts, and layout as closely as possible.  
+- Approximate the paddings and spacing (doesn’t have to be exact).  
+- Use separate CSS file (`style.css`).  
 - Keep your code neat with indentation and comments.  
-
 
 
 Group Roles:
