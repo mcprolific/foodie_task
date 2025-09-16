@@ -55,12 +55,8 @@ Group Roles:
 
 
 
-
-
-
-
 <!-- Contact  -->
-![Foodie Contact Page](https://github.com/user-attachments/assets/43487940-cba3-49ec-8783-be80928fcf17)
+![Foodie Contact Page](https://github.com/user-attachments/assets/7c175407-832b-4ec8-87d0-fdd82a215bb9)
 
 
 <!-- Footer -->
