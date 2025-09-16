@@ -29,10 +29,10 @@ Tasks for Students
 
 
 Group Roles:
-Saka Idris Ajayi: Structure lead
-Ngozi Faith Omuekwu: Content lead
-Boluwatife Gbadamosi: HTML Lead
-Ojo Fopefoluwa Dorcas: CSS Lead
+- Saka Idris Ajayi: Structure lead
+- Ngozi Faith Omuekwu: Content lead
+- Boluwatife Gbadamosi: HTML Lead
+- Ojo Fopefoluwa Dorcas: CSS Lead
 
 
 
