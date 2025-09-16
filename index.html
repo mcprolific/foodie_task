@@ -2,116 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>foodie</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<link rel="stylesheet" href="style.css" />
 
 <body>
-    <div class="container">
-        <header>
-            <div class="header">
-                <div class="main_logo">
-                    <img class="logo" src="./Images/logo.png" alt="" srcset="" />
-                    <p class="logo_text">Foodie</p>
-                </div>
-                <div class="main_menu">
-                    <nav class="menu">
-                        <ul>
-                            <a href="http://">
-                                <li class="home">Home</li>
-                            </a>
-                            <a href="http://">
-                                <li>Menu</li>
-                            </a>
-                            <a href="http://">
-                                <li>About</li>
-                            </a>
-                            <a href="http://">
-                                <li>Contact</li>
-                            </a>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+  <div class="container">
 
-        <div class="main_body">
-            <div class="body_content">
-                <h1>Your Favorite Food,</h1>
-                <h1>Delivered <b class="txt_1">Hot & Fresh</b>.</h1>
-                <p class="txt_2">
-                    Experience the best of local and international cuisine, prepared
-                    with
-                </p>
-                <p class="txt_2">passion and delivered to your doorstep.</p>
-                <div class="txt_order">
-
-                    <p class="txt_3">Order Now</p>
-                    <p class="txt_4">View Menu</p>
-                </div>
-            </div>
-
-            <div class="image_burger">
-                <div class="txt_me">
-                    <p class="txt_5">Savour the Flavour</p>
-                    <p class="txt_5"> of Our <b class="txt_1">Signature </p>
-                    <p class="txt_5" style="padding-bottom: 20px;">Burger</b></p>
-
-                    <p class="txt_6">
-                        Indulge in our mouthwatering burger, crafted with premium ingredients and vursting with flavour.
-                        Experience the prefect blend of juicy patty, fresh toppings, and a toasted bun.
-                    </p>
-
-                    <p class="txt_7">Order Now <span class="my_arrow"> &rarr;</span></p>
-                </div>
-                <div class="im_burger">
-                    <img class="burger_logo" src="./Images/burger.png" alt="" />
-                </div>
-
-            </div>
-            <div class="txt_del">
-                <h1>Our Delicious Menu</h1>
-                <p class="txt_2">Crafted with passion, fom our kitchen to your table.</p>
-            </div>
-<div class="list_imgs">
-                <div class="main_img">
-                <div class="main_img_manu">
-                    <img class="main_img_1" src="./Images/left.png" alt="">
-
-                    <div class="txt_8_msg">
-                        <p class="txt_8">Maegherita Pizza</p>
-                        <p class="txt_9">A classic pizza with fresh Marzano, San</p>
-                        <p class="txt_9"> Marzano tomatoes, and basil.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="main_img">
-                <div class="main_img_manu">
-                    <img class="main_img_1" src="./Images/middle.png" alt="">
-
-                    <div class="txt_8_msg">
-                        <p class="txt_8">Spaghetti Carbonara</p>
-                        <p class="txt_9">Authentic Italian pasata with eggs, cheese,</p>
-                        <p class="txt_9"> pancetta, and pepper.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="main_img">
-                <div class="main_img_manu">
-                    <img class="main_img_1" src="./Images/right.png" alt="">
-
-                    <div class="txt_8_msg">
-                        <p class="txt_8">Caesar Salad</p>
-                        <p class="txt_9">Crisp romaine lettuce with Caesar</p>
-                        <p class="txt_9"> dressing, croutons, and Parmesan cheese.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- ===== HEADER ===== -->
+    <header>
+      <div class="header">
+        <div class="main_logo">
+          <img class="logo" src="./Images/logo.png" alt="Foodie Logo" />
+          <p class="logo_text">Foodie</p>
         </div>
+        <nav class="main_menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <div class="main_body">
+      <div class="body_content">
+        <h1>Your Favorite Food,</h1>
+        <h1>Delivered <span class="txt_1">Hot & Fresh</span>.</h1>
+        <p class="txt_2">
+          Experience the best of local and international cuisine,
+          prepared with passion and delivered to your doorstep.
+        </p>
+        <div class="txt_order">
+          <button class="txt_3">Order Now</button>
+          <button class="txt_4">View Menu</button>
         </div>
+      </div>
+
+      <!-- ===== BURGER SECTION ===== -->
+      <div class="image_burger">
+        <div class="txt_me">
+          <p class="txt_5">Savour the Flavour</p>
+          <p class="txt_5">of Our <span class="txt_1">Signature</span></p>
+          <p class="txt_5">Burger</p>
+          <p class="txt_6">
+            Indulge in our mouthwatering burger, crafted with premium ingredients
+            and bursting with flavour. Experience the perfect blend of juicy patty,
+            fresh toppings, and a toasted bun.
+          </p>
+          <button class="txt_7">Order Now <span class="my_arrow">→</span></button>
+        </div>
+        <div class="im_burger">
+          <img class="burger_logo" src="./Images/burger.png" alt="Signature Burger" />
+        </div>
+      </div>
+
+      <!-- ===== MENU SECTION ===== -->
+      <div class="txt_del">
+        <h1>Our Delicious Menu</h1>
+        <p class="txt_2">Crafted with passion, from our kitchen to your table.</p>
+      </div>
+
+      <div class="list_imgs">
+        <div class="main_img">
+          <div class="main_img_manu">
+            <img class="main_img_1" src="./Images/left.png" alt="Pizza">
+            <div class="txt_8_msg">
+              <p class="txt_8">Margherita Pizza</p>
+              <p class="txt_9">A classic pizza with fresh San Marzano tomatoes and basil.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_img">
+          <div class="main_img_manu">
+            <img class="main_img_1" src="./Images/middle.png" alt="Spaghetti">
+            <div class="txt_8_msg">
+              <p class="txt_8">Spaghetti Carbonara</p>
+              <p class="txt_9">Authentic Italian pasta with eggs, cheese, pancetta, and pepper.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_img">
+          <div class="main_img_manu">
+            <img class="main_img_1" src="./Images/right.png" alt="Salad">
+            <div class="txt_8_msg">
+              <p class="txt_8">Caesar Salad</p>
+              <p class="txt_9">Crisp romaine lettuce, Caesar dressing, croutons & Parmesan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== ABOUT SECTION ===== -->
+      <div class="main_middle">
+        <div class="main_middle_img">
+          <img src="./Images/Screenshot 2025-09-15 095948.png" alt="About Foodie">
+          <div class="check_txt">
+            <h1>About Our Passion for Food</h1>
+            <h6 class="txt_2">From Our Kitchen to Your Table</h6>
+            <div class="txt_small">
+                <p class="txt_10">At our core, we are a team of passionate food enthusiasts dedicated to crafting exceptional culinary experiences. Our journey began with a simple desire to share our love for delicious, high-quality food with the world. We believe that food is more than just sustenance, its a source of joy, connection and cultural expression. <br><br> With this philosophy in mind, we meticulously source the finest ingredients, collaborate with talented chefs, and employ innovative techniques to create dishes that tantalize the taste buds and nourish the soul. <br> <br>Our commitment to excellence extends beyond the kitchen, as we strive to provide exceptional customer service and foster a welcoming community around our shared love for food. Join us on this flavorful adventure as we explore the endless possibilities of gastronomy together.</p>
+            </div>
+            <button class="txt_11">Explore Our Menu</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== TESTIMONIALS ===== -->
+      <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p class="txt_2">Hear from real people who love our food</p>
+
+        <div class="img_bottom">
+          <div class="img_bottom_1">
+            <img class="img_bottom_1_main" src="./Images/Ngozi.png" alt="Ngozi">
+            <p>"I've been using this service for weeks, and I'm amazed at the results. My energy levels are up and I feel fantastic!"</p>
+            <p><b>Ngozi Faith Omuekwu</b></p>
+            <p class="img_bottom_1_txt">Happy Customer</p>
+          </div>
+
+          <div class="img_bottom_1">
+            <img class="img_bottom_1_main" src="./Images/Ngozi.png" alt="Boluwatife">
+            <p>"This service completely changed my approach to healthy eating. It's convenient and delicious, I look forward to every meal!"</p>
+            <p><b>Boluwatife Gbadamosi</b></p>
+            <p class="img_bottom_1_txt">Loyal User</p>
+          </div>
+
+          <div class="img_bottom_1">
+            <img class="img_bottom_1_main" src="./Images/Ngozi.png" alt="Ojo">
+            <p>"I was skeptical at first, but this exceeded my expectations. It keeps me on track with my fitness goals without sacrificing taste."</p>
+            <p><b>Ojo Fopefoluwa Dorcas</b></p>
+            <p class="img_bottom_1_txt">Fitness Enthusiast</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== FOOTER ===== -->
+      <footer class="footer">
+        <div class="foot_contact">
+          <h3>Contact Us</h3>
+          <p>Have questions or feedback? Reach out to us and we'll respond as soon as possible.</p>
+          <p>Email: indexprolific@gmail.com</p>
+          <p>Phone: +234 813 327 4250</p>
+          <p>Address: NCC Digital Innovation Park, Kobape Road, Abeokuta, Ogun State</p>
+        </div>
+        <div class="foot_input">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <button type="button">Submit</button>
+        </div>
+      </footer>
     </div>
+  </div>
 </body>
 
 </html>
